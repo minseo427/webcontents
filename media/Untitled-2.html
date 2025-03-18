@@ -5,11 +5,23 @@
 <title>자기소개</title>
 </head>
 <body>
-<h1>About me</h1>
-안녕하세요 저는 이번에 컴퓨터공학과에 입학한 25학번 정민서 입니다.<br>
-잘 부탁 드립니다.
+<header><h1>About me</h1>
+안녕하세요 저는 이번에 컴퓨터공학과에 입학한 25학번 정민서 입니다.
+잘 부탁 드립니다.<br>
+<audio src="audio test.mp3" controls loop> 
+</audio>
+</header>
+<nav><h2>목차</h2>
+<ul>
+<li><a href="#chap1">관심분야</a>
+<li><a href="#chap2">취미 활동</a>
+<li><a href="#chap3">시간표</a>        
+</ul>
+</nav>
 <hr>
-<h2>관심 분야</h2>
+<section>
+<article id="관심분야">
+<h2><a id="chap1">관심분야</a></h2>
 <ul>
 <li>프로그래밍 언어
 <ul>
@@ -25,12 +37,14 @@
 <li>대화형 음성 인공지능(Conversational Voice AI.)<br>
 <li>인공지능 컴패니언(AI Companion)
 </UL>
-<h3>취미 활동</h3>
+</article>
+<article id="취미 활동">
+<h3><a id="chap2">취미 활동</a></h3>
 <hr>
 <table border="1">
     <thead> 
         <tr>
-            <th><img src="spotify-1759471_1280.webp" width="100" height="100" alt="음악듣기 1"></th>
+            <th><a href="spotify-1759471_1280.webp" ><img src="spotify-1759471_1280.webp" width="100" height="100" alt="음악듣기 1"></a></th>
             <th><img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" width="100" height="100" alt="게임하기 2"></th>
             <th><img src="https://www.sleepmed.or.kr/img/sub2019/img-sleeptime.jpg" width="100" height="100" alt="잠 자기 3"></th>
         </tr>
@@ -43,7 +57,11 @@
         </tr>
     </tbody>
 </table>
-<h3>시간표</h3>
+</article>
+</section>
+<aside id="시간표">
+<h3><a id="chap3">시간표</a></h3>
+<hr>
 <table border="1">
     <caption>1학기 시간표</caption>
     <thead> 
@@ -52,7 +70,7 @@
             <th>월</th>
             <th>화</th>
             <th>수</th>
-            <th>목</th>
+            <th>목</th> 
             <th>금</th>
         </tr>
     </thead>
@@ -132,6 +150,8 @@
             <td></td>
         </tr>
     </tbody>
-<hr>
+</table>
+</aside>
+<footer><h4>2025년 3월 18일 작성</h4></footer>
 </body>
 </html>
