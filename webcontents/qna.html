@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>설문조사</title>
+</head>
+<body>
+
+  <h2>설문지</h2>
+  <form>
+    <p>
+      학년:
+      <label>
+        <input type="radio" name="grade" value="1"> 1학년
+      </label>
+      <label>
+        <input type="radio" name="grade" value="2"> 2학년
+      </label>
+      <label>
+        <input type="radio" name="grade" value="3"> 3학년
+      </label>
+    </p>
+
+    <label for="gender">성별:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">남성</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">여성</label><br>
+
+    <p>
+      관심 분야:
+      <label>
+        <input type="checkbox" name="interest" value="coding"> 코딩
+      </label>
+      <label>
+        <input type="checkbox" name="interest" value="ai"> 인공어
+      </label>
+      <label>
+        <input type="checkbox" name="interest" value="computer"> 컴퓨터
+      </label>
+      <label>
+        <input type="checkbox" name="interest" value="etc"> 기타
+      </label>
+      <input type="text" name="interest_etc" placeholder="직접 입력">
+    </p>
+
+    <label for="career">진로:</label>
+    <input type="checkbox" id="dev" name="career" value="dev">
+    <label for="dev">개발</label>
+    <input type="checkbox" id="plan" name="career" value="plan">
+    <label for="plan">기획</label>
+    <input type="checkbox" id="sales" name="career" value="sales">
+    <label for="sales">영업</label>
+    <input type="checkbox" id="startup" name="career" value="startup">
+    <label for="startup">창업</label><br>
+
+    <label for="comment">남기고 싶은 말:</label><br>
+    <textarea id="comment" rows="4" cols="50"></textarea><br>
+
+  </form>
+</body>
+</html>
