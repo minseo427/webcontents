@@ -4,31 +4,87 @@
 <meta charset="utf-8">
 <title>자기소개</title>
 <style>
- h1 {text-align: center;
-color: brown;}
-body
-{
-background-color: aliceblue;    
-} 
-p{
+  h1 {
+    text-align: center;
+    color: brown;
+  }
+  body {
+    background-color: aliceblue;  
+  } 
+  p {
     font-size: 1em;
     text-indent: 1em;
     font-family:'휴먼편지체' , serif ;
-}
-a
-{
-text-decoration: none;   
-}
-nav > ul {
+  }
+  a {
+    text-decoration: none;  
+  }
+  nav > ul {
     border: 1px dotted;
-}
-h3{text-shadow:1px 1px 5px aqua;}
-footer{
+  }
+  h3 {
+    text-shadow:1px 1px 5px aqua;
+  }
+  footer {
     border-radius: 10px;
     background-color: orange;
-}
-h2{text-shadow:1px 1px 5px aqua;}
+    padding: 10px; 
+    text-align: center; 
+  }
+  h2 {
+    text-shadow:1px 1px 5px aqua;
+  }
+
+  
+  #시간표 table {
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto; 
     
+  }
+
+  #시간표 td, #시간표 th {
+    text-align: left;   
+    padding: 5px;       
+    height: 15px;       
+    width: 100px;       
+  
+  }
+
+  #시간표 thead th { 
+    background: darkgray; 
+    color: yellow;        
+  }
+
+  #시간표 tbody tr:nth-child(even) {
+    background: aliceblue; 
+  }
+
+  #시간표 tbody tr:hover {
+    background: pink;      
+  }
+
+  #시간표 caption { 
+    caption-side: top;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: brown; 
+  }
+ 
+  #취미활동 table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; 
+  }
+  #취미활동 table th, #취미활동 table td {
+    border: 1px solid #ddd; 
+    padding: 8px;
+  }
+  #취미활동 table h4 {
+    margin: 0; 
+  }
+
 </style>
 </head>
 <body>
@@ -40,9 +96,9 @@ h2{text-shadow:1px 1px 5px aqua;}
 </header>
 <nav><h2>목차</h2>
 <ul>
-<li><a href="#chap1">관심분야</a>
-<li><a href="#chap2">취미 활동</a>
-<li><a href="#chap3">시간표</a>        
+<li><a href="#chap1">관심분야</a></li>
+<li><a href="#chap2">취미 활동</a></li>
+<li><a href="#chap3">시간표</a></li>      
 </ul>
 </nav>
 <hr>
@@ -52,135 +108,116 @@ h2{text-shadow:1px 1px 5px aqua;}
 <ul>
 <li>프로그래밍 언어
 <ul>
-<li>Python<br>
-<li>java<br>
-<li>html<br>
-<li>C++<br>
-<li>C
-</ul>
+<li>Python<br></li>
+<li>java<br></li>
+<li>html<br></li>
+<li>C++<br></li>
+<li>C</li>
+</ul></li>
 <li>대화형 인공지능(Conversational A.I.)
-<UL>
-<li>챗봇(Chatbot)<br>
-<li>대화형 음성 인공지능(Conversational Voice AI.)<br>
-<li>인공지능 컴패니언(AI Companion)
-</UL>
+<ul>
+<li>챗봇(Chatbot)<br></li>
+<li>대화형 음성 인공지능(Conversational Voice AI.)<br></li>
+<li>인공지능 컴패니언(AI Companion)</li>
+</ul></li>
 </article>
-<article id="취미 활동">
+<article id="취미활동"> 
 <h3><a id="chap2">취미 활동</a></h3>
 <hr>
-<table border="1">
-    <thead> 
-        <tr>
-            <th><a href="spotify.png" ><img src="spotify.png" width="100" height="100" alt="음악듣기 1"></a></th>
-            <th><img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" width="100" height="100" alt="게임하기 2"></th>
-            <th><img src="https://www.sleepmed.or.kr/img/sub2019/img-sleeptime.jpg" width="100" height="100" alt="잠 자기 3"></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="text-align: center;"><h4>음악듣기</h4></td>
-            <td style="text-align: center;"><h4>게임하기</h4></td>
-            <td style="text-align: center;"><h4>잠 자기</h4></td>
-        </tr>
-    </tbody>
+<table border="1"> <thead> 
+    <tr>
+      <th><a href="spotify.png" ><img src="spotify.png" width="100" height="100" alt="음악듣기 1"></a></th>
+      <th><img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" width="100" height="100" alt="게임하기 2"></th>
+      <th><img src="https://www.sleepmed.or.kr/img/sub2019/img-sleeptime.jpg" width="100" height="100" alt="잠 자기 3"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><h4>음악듣기</h4></td>
+      <td style="text-align: center;"><h4>게임하기</h4></td>
+      <td style="text-align: center;"><h4>잠 자기</h4></td>
+    </tr>
+  </tbody>
 </table>
 </article>
 </section>
 <aside id="시간표">
 <h3><a id="chap3">시간표</a></h3>
 <hr>
-<table border="1">
-    <caption>1학기 시간표</caption>
-    <thead> 
-        <tr>
-            <th>구분</th>
-            <th>월</th>
-            <th>화</th>
-            <th>수</th>
-            <th>목</th> 
-            <th>금</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>09</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td></td>
-            <td rowspan="3">인터넷콘텐츠</td>
-            <td></td>
-            <td style="text-align: center;" rowspan="3">프로그래밍<br>언어실습1</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            
-        </tr>
-        <tr>
-            <td>12</td>
-            <td ></td>
-            <td></td>
-            <td></td>
-           
-        </tr>
-        <tr>
-            <td>13</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td rowspan="3">컴퓨터<br>과학개론</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td></td>
-            <td></td>
-            <td rowspan="2">SW개발<br>문제해결능력</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td></td>
-            <td rowspan="2">컴퓨팅 사고력</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>17</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>18</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
+<table> 
+  <caption>1학기 시간표</caption>
+  <thead> 
+    <tr>
+      <th>구분</th> <th>월</th>   <th>화</th>   <th>수</th>   <th>목</th>   <th>금</th>   </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>09</td> <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr> <td>10</td>
+      <td></td>
+      <td rowspan="3">인터넷콘텐츠</td> <td></td>
+      <td style="text-align: center;" rowspan="3">프로그래밍<br>언어실습1</td> <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr> <td>12</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr> <td>14</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td rowspan="3">컴퓨터<br>과학개론</td> <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td></td>
+      <td></td>
+      <td rowspan="2">SW개발<br>문제해결능력</td> <td></td>
+    </tr>
+    <tr> <td>16</td>
+      <td></td>
+      <td rowspan="2">컴퓨팅 사고력</td> <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr> <td>18</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
 </table>
 </aside>
 <footer>
 <a href="qna.html" target="_blank">설문조사</a>
-<h4>2025년 3월 18일 작성</h4></footer>
+<h4>2025년 3월 18일 작성</h4>
+</footer>
 </body>
 </html>
